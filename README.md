@@ -1,5 +1,27 @@
 # 📊 ConnectaTel – Análisis de Segmentación y Uso de Clientes
-📌 Descripción del Proyecto
+## Cómo funciona...
+
+Descargar los tres csv files
+
+1. plans.csv
+2. usage.csv
+3. users_latam.csv
+
+Y cargalos en el tu notebook.
+
+El proyecto funciona con google colab.
+
+Las librerias que use:
+
+import pandas as pd
+
+import seaborn as sns
+
+import matplotlib.pyplot as plt 
+
+import numpy as np
+
+## 📌 Descripción del Proyecto
 
 Este proyecto analiza el comportamiento de los clientes de ConnectaTel, enfocándose en:
 
@@ -15,7 +37,7 @@ Generación de insights ejecutivos para el negocio
 
 El objetivo es identificar patrones de consumo y oportunidades estratégicas para optimizar la oferta de planes.
 
-⚠️ Problemas Detectados en los Datos
+##⚠️ Problemas Detectados en los Datos
 
 Durante la fase de exploración se identificaron y corrigieron los siguientes problemas:
 
@@ -41,7 +63,7 @@ Variables de consumo presentan sesgo a la derecha.
 
 Se identificaron outliers en minutos de llamada (usuarios con más de 60 minutos acumulados).
 
-📌 En general, los datos fueron utilizables tras una limpieza básica y validación de coherencia.
+##📌 En general, los datos fueron utilizables tras una limpieza básica y validación de coherencia.
 
 🔍 Segmentación por Edad
 
@@ -53,7 +75,7 @@ Adulto: entre 30 y 60 años
 
 Adulto mayor: mayor a 60 años
 
-📊 Hallazgos
+##📊 Hallazgos
 
 El segmento Adulto concentra la mayor cantidad de clientes (más de 1200 usuarios en plan Básico).
 
@@ -146,7 +168,7 @@ Optimizar retención y upselling
 
 Maximizar valor por cliente
 
-🛠️ Tecnologías Utilizadas
+##🛠️ Tecnologías Utilizadas
 
 Python
 
